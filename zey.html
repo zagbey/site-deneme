@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/zey.css">
+    <link rel="stylesheet" href="/css/diger.css">
+    <title>Dayan Zeynel</title>
+</head>
+<body>
+    <!---------------navigasyon menüsü------------->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Zeynelin Çiftliki</h1>
+            <nav>
+                <ul>
+                    <li><a href="zeynel.html">Ana Sayfa</a></li>
+                    <li><a href="features.html">Özellikler</a></li>
+                    <li><a href="docs.html">Dökümanlar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-----------Naviden hariç olan  kayıt kısım--------------->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Kolay Isler Bunlar</h1>
+                <p>Mottomuz herkes için bedava hosting tam olarak bedava olmasada ona yakın
+                </p>
+                <a href="features.html" class="btn btn-outline">Daha fazla</a>
+            </div>
+            <div class="showcase-form card"><!--bu kısım form input,kartlar,yazı vs-->
+               <h2>Kayıtol</h2> 
+               <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                  </p>
+                   <div class="form-control">
+                       <input type="text" name="name" placeholder="İsim" required>
+                   </div>
+                   <div class="form-control">
+                    <input type="text" name="Company" placeholder="Şirket İsmi" required>
+                  </div><div class="form-control">
+                     <input type="email" name="name" placeholder="Email" required>
+                 </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+               </form>
+            </div>
+            </div>
+        </div><!--yukarıda oluşan navigasyon menüsünün 1100px 'lik genişliği ile aynı gridi oluşturuyoruz'-->
+    </section>
+
+    <!---------------------Stats 3 gridden oluşuyor ---------------->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Dünyanın en iyi platformunu gördünüz mü?Cevabınız evetse henüz benim çenılıma kayıt olmamışsınız demektir
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>10.349.405</h3>
+                    <p class="text-secondary">Dağılım</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>658 TB</h3>
+                    <p class="text-secondary">Yayınlanmış</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>3.478.254</h3>
+                    <p class="text-secondary">Proje</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------CLİ-------->
+    <section class="cli">
+
+        <div class="container grid">
+            <img src="/image/cli.png" alt="">
+            <div class="card">
+                <h3>Kullanımı kolay,gelistirilebilir</h3>
+            </div>
+            <div class="card">
+                <h3>Saniyeler içinde</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-----------hesaplar---------->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Çevrimiçi platformlar için veri merkezi</h2>
+                <p class="lead my-1">Sunucu hizmetimizden yararlanın</p>
+                <a href="features.html" class="btn btn-dark">Daha fazla</a>
+            </div>
+            <img src="/image/cloud.png" alt="">
+        </div>
+    </section>
+
+    <!------------------YAZILIM DİLLERİ------------------->
+    <section class="languages">
+        <h2 class="md text-center my-2">
+            Desteklenen Diller
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="/image/logos/node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="/image/logos/python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>C#</h4>
+                <img src="/image/logos/csharp.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Ruby</h4>
+                <img src="/image/logos/ruby.png" alt="">
+            </div>
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="/image/logos/php.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="/image/logos/scala.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Cloirue</h4>
+                <img src="/image/logos/clojure.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!----------------------FOOTER------------------------->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>ZAG
+                </h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana sayfa</a></li>
+                    <li><a href="features.html">Kaynaklar</a></li>
+                    <li><a href="docs.html">Dökümanlar</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://github.com/zagbey"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/zeynel.gencer.5/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/gencerzeynel/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/zeynelgencer_"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
